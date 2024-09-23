@@ -2,7 +2,7 @@
 
 **AI Travel Planner** is an intuitive mobile app designed to help users plan their travel seamlessly using artificial intelligence. This app leverages the power of **OpenAI's GPT-based language models (Gemini)** to generate personalized travel plans, suggestions, and itineraries. It is built with **Expo** for a cross-platform React Native development experience and **Firebase** for user authentication and data storage.
 
-![AI Travel Planner Screenshot](path_to_your_image)  
+![AI Travel Planner Screenshot](blob:https://imgur.com/8cf2f9ef-4a27-4da2-8c13-01cfb84c9686)  
 <small>Home screen of the AI Travel Planner App</small>
 
 ---
