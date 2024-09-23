@@ -1,51 +1,52 @@
-# Welcome to your Expo app 👋
+# AI Travel Planner App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**AI Travel Planner** is an intuitive mobile app designed to help users plan their travel seamlessly using artificial intelligence. This app leverages the power of **OpenAI's GPT-based language models (Gemini)** to generate personalized travel plans, suggestions, and itineraries. It is built with **Expo** for a cross-platform React Native development experience and **Firebase** for user authentication and data storage.
 
-## Get started
+![AI Travel Planner Screenshot](path_to_your_image)  
+<small>Home screen of the AI Travel Planner App</small>
 
-1. Install dependencies
+---
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Screenshots](#screenshots)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+---
+
+## Features
+
+- **AI-based travel suggestions**: Powered by **Gemini** to generate tailored travel itineraries.
+- **Firebase Authentication**: Secure user sign-up, login, and management.
+- **Real-time Data**: Travel plans and user data are stored and retrieved in real time using Firebase's Cloud Firestore.
+- **Cross-platform**: Works on both iOS and Android via Expo.
+- **Interactive UI**: Users can adjust and edit their travel plans directly in the app.
+
+---
+
+## Technologies
+
+- **React Native (Expo)**: For building the mobile app UI.
+- **Gemini (OpenAI's GPT models)**: For generating AI-powered travel plans.
+- **Firebase**:
+  - **Firebase Authentication**: For user authentication.
+  - **Firestore**: For storing user data and travel plans.
+- **Node.js & Express** (optional backend): For additional server-side logic and API management.
+
+---
+
+## Installation
+
+Follow these steps to get the app running on your local machine:
+
+### Prerequisites
+
+1. **Node.js** and **npm** installed.
+2. **Expo CLI** installed:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# ai-travel-app
+   npm install -g expo-cli
